@@ -1,7 +1,7 @@
 # Unified-Military-Analytics-and-Comparison-Dashboard
 # Unified Military Analytics Dashboard
 
-## Module 1: Data Scraping (Completed)
+## Module 1: Data Scraping 
 
 This module scrapes country-level military metrics for 140+ countries
 from GlobalFirepower using a predefined list of URLs.
