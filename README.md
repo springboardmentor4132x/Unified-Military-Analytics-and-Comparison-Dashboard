@@ -12,7 +12,7 @@ from GlobalFirepower using a predefined list of URLs.
 - military_raw_data.csv – raw scraped dataset
 
 ### Folder Structure
-
+```
 Unified-Military-Analytics-and-Comparison-Dashboard-DV/
 │
 │
@@ -39,7 +39,7 @@ Unified-Military-Analytics-and-Comparison-Dashboard-DV/
 ├──.gitignore
 ├── README.md
 └── requirements.txt
-
+```
 
 
 ### How to Run
