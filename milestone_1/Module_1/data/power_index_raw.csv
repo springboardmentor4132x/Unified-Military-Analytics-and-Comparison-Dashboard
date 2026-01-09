@@ -1,0 +1,146 @@
+Rank,Country_Full_Name,Country_Short_Name,Power_Index
+1,United States,USA,0.0744
+2,Russia,RUS,0.0788
+3,China,CHN,0.0788
+4,India,IND,0.1184
+5,South Korea,SKO,0.1656
+6,United Kingdom,UKD,0.1785
+7,France,FRA,0.1878
+8,Japan,JPN,0.1839
+9,Turkiye,TKY,0.1902
+10,Italy,ITA,0.2164
+11,Brazil,BRA,0.2415
+12,Pakistan,PAK,0.2513
+13,Indonesia,INO,0.2557
+14,Germany,GER,0.2601
+15,Israel,ISR,0.2661
+16,Iran,IRN,0.3048
+17,Spain,SPN,0.3242
+18,Australia,AUS,0.3298
+19,Egypt,EGY,0.3427
+20,Ukraine,UKR,0.3755
+21,Poland,POL,0.3776
+22,Taiwan,TWN,0.3988
+23,Vietnam,VET,0.4024
+24,Saudi Arabia,SAR,0.4201
+25,Thailand,THL,0.4536
+26,Algeria,ALG,0.3589
+27,Sweden,SWE,0.4835
+28,Canada,CAN,0.5179
+29,Singapore,SNG,0.5271
+30,Greece,GRE,0.5337
+31,Nigeria,NGA,0.5771
+32,Mexico,MEX,0.5965
+33,Argentina,ARG,0.6013
+34,North Korea,NKO,0.6016
+35,Bangladesh,BNG,0.6062
+36,Netherlands,NTH,0.6412
+37,Myanmar,MYA,0.6735
+38,Norway,NOR,0.6811
+39,Portugal,POR,0.6856
+40,South Africa,SAF,0.6889
+41,Philippines,PHL,0.6987
+42,Malaysia,MLY,0.7429
+43,Iraq,IRQ,0.7738
+44,Switzerland,SWZ,0.7869
+45,Denmark,DEN,0.8109
+46,Colombia,COL,0.8353
+47,Chile,CHI,0.8361
+48,Finland,FIN,0.8437
+49,Peru,PER,0.8588
+50,Venezuela,VEN,0.8882
+51,Romania,ROM,0.8984
+52,Ethiopia,ETH,0.9305
+53,Czechia,CZC,0.9994
+54,United Arab Emirates,UAE,1.0186
+55,Hungary,HUN,1.0259
+56,Angola,ANG,1.0961
+57,Kazakhstan,KAZ,1.1016
+58,Uzbekistan,UZB,1.1121
+59,Morocco,MOR,1.1273
+60,Azerbaijan,AZR,1.2531
+61,Belgium,BEL,1.2564
+62,Bulgaria,BUL,1.2563
+63,Serbia,SRB,1.2576
+64,Syria,SYR,1.2771
+65,Ecuador,ECU,1.3021
+66,Democratic Republic of the Congo,DRC,1.3111
+67,Cuba,CUB,1.3286
+68,Austria,AST,1.3704
+69,Sri Lanka,SRL,1.3941
+70,Belarus,BLR,1.3954
+71,Slovakia,SLK,1.3978
+72,Qatar,QTR,1.4307
+73,Sudan,SDN,1.4756
+74,Croatia,CRO,1.5074
+75,Jordan,JOR,1.6139
+76,Libya,LBY,1.4449
+77,Turkmenistan,TKM,1.6512
+78,Albania,ALB,1.6815
+79,Kuwait,KUW,1.6982
+80,Bolivia,BOL,1.7221
+81,Bahrain,BAH,1.7448
+82,Oman,OMA,1.8047
+83,Kenya,KEN,1.8135
+84,Chad,CHD,1.8712
+85,Yemen,YEM,1.8901
+86,New Zealand,NWZ,1.9039
+87,Paraguay,PAR,1.9044
+88,Lithuania,LIT,1.9075
+89,Mozambique,MOZ,1.9265
+90,Tunisia,TUN,1.9538
+91,Armenia,ARM,2.0373
+92,Tanzania,TNZ,2.0416
+93,Cameroon,CAM,2.0501
+94,Georgia,GEO,2.0695
+95,Cambodia,CMB,2.0752
+96,Slovenia,SLN,2.1016
+97,Ireland,IRE,2.1103
+98,Mongolia,MGL,2.1135
+99,Latvia,LAT,2.1246
+100,Uruguay,URU,2.1385
+101,Honduras,HON,2.1679
+102,Ivory Coast,IVC,2.1796
+103,Guatemala,GUA,2.1956
+104,Mali,MAL,2.2379
+105,Kyrgyzstan,KYR,2.2543
+106,Laos,LAO,2.2663
+107,Estonia,EST,2.2917
+108,Tajikistan,TJK,2.3049
+109,Zambia,ZAM,2.3411
+110,Ghana,GHA,2.3775
+111,Zimbabwe,ZIM,2.3863
+112,North Macedonia,MAC,2.4042
+113,South Sudan,SSD,2.4321
+114,Uganda,UGA,2.4767
+115,Lebanon,LEB,2.5981
+116,Namibia,NAM,2.6384
+117,Luxembourg,LUX,2.6415
+118,Afghanistan,AFG,2.6442
+119,Niger,NGR,2.6689
+120,Eritrea,ERI,2.6985
+121,Republic of the Congo,ROC,2.7282
+122,Botswana,BOT,2.7509
+123,Mauritania,MAU,2.7977
+124,Dominican Republic,DOM,2.8023
+125,Senegal,SEN,2.8116
+126,Nepal,NEP,2.8915
+127,Montenegro,MTN,2.9216
+128,El Salvador,ESL,2.9371
+129,Burkina Faso,BKF,2.9734
+130,Madagascar,MAD,3.0609
+131,Nicaragua,NIC,3.0966
+132,Bosnia and Herzegovina,BOS,3.0799
+133,Gabon,GAB,3.1805
+134,Moldova,MOL,3.2555
+135,Iceland,ICE,3.5181
+136,Panama,PAN,3.6575
+137,Beliz,BLZ,3.7191
+138,Liberia,LIB,3.7781
+139,Suriname,SRN,3.9127
+140,Sierra Leone,SLE,3.9701
+141,Kosovo,KOS,4.9141
+142,Somalia,SOM,4.2037
+143,Central African Republic,CAR,4.2347
+144,Benin,BEN,4.3156
+145,Bhutan,BUT,6.3934
