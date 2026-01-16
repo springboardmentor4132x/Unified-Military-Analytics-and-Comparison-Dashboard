@@ -1,0 +1,146 @@
+country,continent,defense_budget_inr_crore,oil_production_bbl,active_personnel,fighter_aircraft
+China,Asia,41.37,4984000.0,2035000,1212
+India,Asia,6.6,795000.0,1455550,513
+United States,North America,173.3,20879000.0,1328000,1790
+Indonesia,Asia,7.18,865000.0,400000,41
+Pakistan,Asia,0.84,101000.0,654000,328
+Nigeria,Africa,12.79,1541000.0,230000,14
+Brazil,South America,35.03,4221000.0,360000,43
+Bangladesh,Asia,0.11,13000.0,163000,42
+Russia,Europe,89.03,10727000.0,1320000,833
+Mexico,North America,17.44,2101000.0,412000,3
+Japan,Asia,0.07,8000.0,247150,217
+Ethiopia,Africa,0.0,0.0,162000,25
+Philippines,Asia,0.08,10000.0,150000,0
+Democratic Republic of the Congo,Africa,0.16,19000.0,166580,1
+Egypt,Africa,5.54,667000.0,440000,238
+Vietnam,Asia,1.55,187000.0,600000,41
+Iran,Asia,33.08,3985000.0,610000,188
+Turkiye,Asia,0.69,83000.0,355200,201
+Germany,Europe,1.09,131000.0,181600,129
+Thailand,Asia,3.2,386000.0,360850,72
+United Kingdom,Europe,6.25,753000.0,184860,113
+France,Europe,0.66,80000.0,200000,226
+Tanzania,Africa,0.0,0.0,27000,14
+Italy,Europe,0.96,116000.0,165500,89
+South Africa,Africa,0.79,95000.0,71235,2
+Kenya,Africa,0.0,0.0,50000,17
+Myanmar,Asia,0.06,7000.0,150000,58
+South Korea,Asia,0.32,38000.0,600000,315
+Sudan,Africa,0.56,68000.0,92000,37
+Colombia,South America,6.64,800000.0,293200,16
+Uganda,Africa,0.0,0.0,45000,6
+Spain,Europe,0.39,47000.0,133282,137
+Algeria,Africa,11.98,1443000.0,325000,102
+Argentina,South America,6.7,807000.0,108000,23
+Iraq,Asia,36.83,4437000.0,193000,26
+Afghanistan,Asia,0.0,0.0,0,0
+Canada,North America,47.24,5692000.0,68000,66
+Poland,Europe,0.2,24000.0,202100,59
+Morocco,Africa,0.0,25.0,195800,83
+Angola,Africa,9.75,1175000.0,107000,71
+Saudi Arabia,Asia,92.24,11113000.0,257000,283
+Uzbekistan,Asia,0.53,64000.0,48000,58
+Ukraine,Europe,0.02,3000.0,900000,70
+Ghana,Africa,1.44,174000.0,15500,0
+Malaysia,Asia,4.83,582000.0,113000,26
+Mozambique,Africa,0.0,0.0,11200,8
+Peru,South America,0.98,118000.0,120000,15
+Yemen,Asia,0.12,15000.0,66700,27
+Venezuela,South America,6.32,761000.0,109000,30
+Nepal,Asia,0.0,0.0,95000,0
+Cameroon,Africa,0.45,54000.0,40000,0
+Ivory Coast,Africa,0.24,29000.0,22000,0
+Madagascar,Africa,0.0,0.0,13500,0
+Australia,Oceania,3.2,386000.0,57350,24
+Niger,Africa,0.05,6000.0,25000,0
+North Korea,Asia,0.0,0.0,1320000,368
+Syria,Asia,0.62,75000.0,170000,104
+Taiwan,Asia,0.01,800.0,215000,285
+Burkina Faso,Africa,0.0,0.0,12000,0
+Mali,Africa,0.0,0.0,40000,9
+Sri Lanka,Asia,0.0,0.0,346000,5
+Zambia,Africa,0.0,0.0,15150,0
+Kazakhstan,Asia,16.23,1955000.0,110000,63
+Chad,Africa,1.03,124000.0,33250,0
+Senegal,Africa,0.07,9000.0,17000,0
+Chile,South America,0.09,11000.0,80000,45
+Ecuador,South America,3.98,480000.0,41250,0
+Guatemala,North America,0.05,6000.0,106114,0
+Romania,Europe,0.56,67000.0,81300,21
+Netherlands,Europe,0.58,70000.0,41380,32
+Zimbabwe,Africa,0.01,800.0,29000,13
+Cambodia,Asia,0.0,0.0,221000,0
+Benin,Africa,0.0,0.0,4750,0
+Somalia,Africa,0.0,0.0,15000,0
+South Sudan,Africa,1.21,146000.0,185000,0
+Bolivia,South America,0.48,58000.0,40000,0
+Tunisia,Africa,0.29,35000.0,89800,10
+Belgium,Europe,0.09,11000.0,25000,43
+Jordan,Asia,0.0,20.0,100500,44
+Cuba,North America,0.28,34000.0,45500,11
+Czechia,Europe,0.03,4000.0,28000,12
+Dominican Republic,North America,0.0,0.0,50000,0
+Azerbaijan,Asia,5.13,618000.0,126400,12
+Portugal,Europe,0.11,12932.0,24000,28
+Sweden,Europe,0.09,11000.0,24400,71
+Greece,Europe,0.04,5000.0,142700,178
+Tajikistan,Asia,0.0,300.0,9500,0
+United Arab Emirates,Asia,34.41,4146000.0,65000,99
+Hungary,Europe,0.3,36000.0,41600,12
+Honduras,North America,0.0,20.0,52225,4
+Belarus,Europe,0.25,30000.0,63000,36
+Israel,Asia,0.12,15000.0,170000,240
+Sierra Leone,Africa,0.0,0.0,13000,0
+Austria,Europe,0.15,18000.0,16000,15
+Switzerland,Europe,0.0,300.0,101584,43
+Laos,Asia,0.0,0.0,100000,0
+Paraguay,South America,0.02,2000.0,15650,0
+Libya,Africa,10.33,1245000.0,32000,10
+Bulgaria,Europe,0.03,4000.0,37000,10
+Nicaragua,North America,0.0,200.0,45000,0
+Serbia,Europe,0.11,13000.0,25000,11
+El Salvador,North America,0.0,3.0,25000,0
+Eritrea,Africa,0.0,0.0,120000,1
+Kyrgyzstan,Asia,0.05,6000.0,23000,0
+Republic of the Congo,Africa,2.22,267000.0,8500,2
+Singapore,Asia,0.0,0.0,51000,100
+Denmark,Europe,0.52,63000.0,20000,31
+Turkmenistan,Asia,2.26,272000.0,36500,24
+Central African Republic,Africa,0.0,0.0,10000,0
+Finland,Europe,0.07,8000.0,24000,54
+Slovakia,Europe,0.06,7000.0,19500,2
+Norway,Europe,16.77,2020000.0,23250,0
+Liberia,Africa,0.0,0.0,1500,0
+Lebanon,Asia,0.0,0.0,60000,0
+Ireland,Europe,0.0,600.0,7765,0
+New Zealand,Oceania,0.1,12000.0,8670,0
+Georgia,Asia,0.0,300.0,55000,0
+Panama,North America,0.0,0.0,0,0
+Mauritania,Africa,0.0,0.0,31540,0
+Croatia,Europe,0.09,11000.0,14325,10
+Oman,Asia,8.76,1056000.0,42600,29
+Bosnia and Herzegovina,Europe,0.0,0.0,12770,0
+Moldova,Europe,0.0,0.0,8500,0
+Uruguay,South America,0.0,400.0,25000,0
+Mongolia,Asia,0.12,15000.0,35000,0
+Kuwait,Asia,24.15,2910000.0,72000,43
+Albania,Europe,0.01,1400.0,6600,0
+Armenia,Asia,0.0,0.0,57500,4
+Namibia,Africa,0.0,0.0,13000,11
+Lithuania,Europe,0.03,4000.0,23000,0
+Qatar,Asia,15.06,1815000.0,66550,102
+Gabon,Africa,1.69,204000.0,4800,6
+Botswana,Africa,0.0,0.0,21000,11
+North Macedonia,Europe,0.0,0.0,9000,0
+Slovenia,Europe,0.0,0.0,7300,0
+Kosovo,Europe,0.0,0.0,10000,0
+Latvia,Europe,0.02,2000.0,17250,0
+Bahrain,Asia,1.57,189000.0,18400,24
+Estonia,Europe,0.2,24000.0,7700,0
+Bhutan,Asia,0.0,0.0,7500,0
+Luxembourg,Europe,0.0,0.0,1000,0
+Suriname,South America,0.12,14000.0,2000,0
+Montenegro,Europe,0.0,0.0,2350,0
+Beliz,North America,0.01,800.0,1650,0
+Iceland,Europe,0.0,0.0,0,0
