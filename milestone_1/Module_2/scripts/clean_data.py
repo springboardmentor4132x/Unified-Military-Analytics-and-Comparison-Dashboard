@@ -19,7 +19,9 @@ The challenge is to:
 - Store raw data in structured CSV format
 - Maintain scalability for 140+ countries
 
-## **MILESTONE 1 - Module 1: Scraping Setup and Execution**
+## **MILESTONE 1**
+
+## **Module 1: Scraping Setup and Execution**
 
 **Internship:** Infosys springboard  
 **Project Domain:** Data Visualization (DV)  
@@ -684,7 +686,7 @@ for name in unique_country_names:
 - Handle missing values
 - Prepare PowerBI / Tableau-ready datasets (Module 2)
 
-## **MILESTONE 1 - Module 2: Data Cleaning and Structuring**
+## **Module 2: Data Cleaning and Structuring**
 
 
 **Internship:** Infosys springboard  
@@ -830,6 +832,8 @@ df_clean[
     ]
 ].isna().sum()
 
+df_clean = df_clean.drop(columns=['Rank'])
+
 df_clean.info()
 
 df_clean.isnull().sum()
@@ -860,6 +864,10 @@ df_cleaned.isnull().sum()
 """
 
 print("scraped_military_raw_data.csv size",df_final.shape)
+
+"""- The ` df_cleaned` is final DataFrame and saved as `military_cleaned.csv`
+- The finsl `df_cleaned` has (145,57) size because we have droped the Rank  
+"""
 
 print("military_cleaned.csv size",df_cleaned.shape)
 
@@ -905,3 +913,4 @@ military_cleaned = df_cleaned.to_csv("/content/drive/MyDrive/Colab Notebooks/Uni
 - Develop interactive dashboards using Power BI / Tableau (Module 3)
 
 """
+
