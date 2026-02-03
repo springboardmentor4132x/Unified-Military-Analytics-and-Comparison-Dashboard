@@ -1,0 +1,47 @@
+{
+  "scraping_config": {
+    "base_url": "https://www.globalfirepower.com",
+    "timeout": 30,
+    "retry_attempts": 3,
+    "retry_delay": 5,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "headers": {
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "Upgrade-Insecure-Requests": "1"
+    }
+  },
+  "parsing_config": {
+    "country_selector": "div.country-profile",
+    "metric_selectors": {
+      "total_aircraft": "span.aircraft-total",
+      "active_personnel": "span.active-personnel",
+      "reserve_personnel": "span.reserve-personnel",
+      "defense_budget": "span.defense-budget",
+      "tanks": "span.tank-count",
+      "submarines": "span.submarine-count",
+      "destroyers": "span.destroyer-count",
+      "population": "span.population",
+      "gdp": "span.gdp"
+    }
+  },
+  "output_config": {
+    "output_directory": "../../../data/raw/",
+    "output_filename": "military_raw_data.csv",
+    "save_html": true,
+    "html_directory": "./html_cache/",
+    "log_directory": "./logs/"
+  },
+  "validation_config": {
+    "min_countries": 130,
+    "min_success_rate": 0.95,
+    "required_fields": [
+      "country",
+      "total_aircraft",
+      "active_personnel",
+      "defense_budget"
+    ]
+  }
+}
