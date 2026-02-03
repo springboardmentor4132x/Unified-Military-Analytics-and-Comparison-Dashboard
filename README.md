@@ -1,4 +1,4 @@
-# Unified Military Analytics and Comparison Dashboard (DV-1)
+# Unified Military Analytics and Comparison Dashboard 
 
 ## Project Overview
 A comprehensive interactive dashboard suite for analyzing global military power in 2025, featuring data from 140+ countries with 50+ defense and economic indicators. The project provides cross-platform flexibility with deployments in Tableau, Power BI, Streamlit, and Dash.
@@ -265,3 +265,4 @@ February 2026
 ---
 
 **Status**: Project Structure Initialized | Next: Data Collection Phase
+
