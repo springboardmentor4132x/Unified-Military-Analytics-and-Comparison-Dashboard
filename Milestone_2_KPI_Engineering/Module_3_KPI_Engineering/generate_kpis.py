@@ -3,10 +3,6 @@ Module 3: KPI Feature Engineering Script
 =========================================
 Generates derived KPIs and enriches data with metadata
 
-Author: Project Team
-Date: February 2026
-Status: Template (Ready for implementation)
-
 KPIs Generated:
 1. Power Index Rank Gap - Ranking difference between consecutive countries
 2. Assets per Capita - Military assets per person
