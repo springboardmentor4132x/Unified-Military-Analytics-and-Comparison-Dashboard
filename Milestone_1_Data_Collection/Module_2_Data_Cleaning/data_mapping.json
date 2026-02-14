@@ -1,0 +1,62 @@
+{
+  "column_mapping": {
+    "country_name": "country",
+    "total_military_aircraft": "total_aircraft",
+    "active_military_personnel": "active_personnel",
+    "reserve_military_personnel": "reserve_personnel",
+    "defense_budget_usd": "defense_budget",
+    "main_battle_tanks": "tanks",
+    "submarines": "submarines",
+    "destroyers": "destroyers",
+    "total_population": "population",
+    "gdp_usd": "gdp",
+    "land_area": "land_area_km2"
+  },
+  "numeric_columns": [
+    "total_aircraft",
+    "active_personnel",
+    "reserve_personnel",
+    "defense_budget",
+    "tanks",
+    "submarines",
+    "destroyers",
+    "population",
+    "gdp",
+    "land_area_km2"
+  ],
+  "categorical_columns": [
+    "country",
+    "region",
+    "continent",
+    "alliance"
+  ],
+  "required_columns": [
+    "country",
+    "total_aircraft",
+    "active_personnel"
+  ],
+  "text_cleaning_rules": {
+    "remove_characters": [",", "%", "+", "$", "€", "£"],
+    "remove_patterns": [
+      "\\s+",
+      "\\[[^\\]]*\\]",
+      "\\([^\\)]*\\)"
+    ],
+    "trim_whitespace": true,
+    "lowercase": false
+  },
+  "null_handling": {
+    "strategy": "mean",
+    "allowed_null_percent": 2.0,
+    "columns_allow_null": [
+      "reserve_personnel",
+      "gdp"
+    ]
+  },
+  "validation": {
+    "min_rows": 130,
+    "max_rows": 200,
+    "duplicate_check": "country",
+    "data_type_checks": true
+  }
+}
