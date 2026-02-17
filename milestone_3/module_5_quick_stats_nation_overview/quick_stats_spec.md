@@ -70,7 +70,6 @@ These filters dynamically update all KPIs and visualizations on the page.
 - Supports sorting
 
 
-
 ## Data Source
 
 - Input dataset: `military_final.xlsx`
