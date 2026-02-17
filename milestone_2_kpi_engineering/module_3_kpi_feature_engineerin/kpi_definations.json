@@ -1,0 +1,66 @@
+{
+  "total_military_personnel": {
+    "description": "Total military manpower including active, reserve, and paramilitary personnel",
+    "formula": "active_personnel + reserve_personnel + paramilitary",
+    "required_columns": [
+      "active_personnel",
+      "reserve_personnel",
+      "paramilitary"
+    ],
+    "output_type": "integer"
+  },
+
+  "personnel_per_1000_population": {
+    "description": "Total military personnel per 1000 population",
+    "formula": "(total_military_personnel / total_population) * 1000",
+    "required_columns": [
+      "total_population",
+      "active_personnel",
+      "reserve_personnel",
+      "paramilitary"
+    ],
+    "output_type": "float"
+  },
+
+  "aircraft_per_million_population": {
+    "description": "Total military aircraft per one million population",
+    "formula": "(total_military_aircraft / total_population) * 1000000",
+    "required_columns": [
+      "total_military_aircraft",
+      "total_population"
+    ],
+    "output_type": "float"
+  },
+
+  "tanks_per_million_population": {
+    "description": "Total tanks per one million population",
+    "formula": "(tanks / total_population) * 1000000",
+    "required_columns": [
+      "tanks",
+      "total_population"
+    ],
+    "output_type": "float"
+  },
+
+  "defense_budget_to_gdp_ratio": {
+    "description": "Defense budget as percentage of purchasing power parity",
+    "formula": "(defense_budget_usd / purchasing_power_parity_usd) * 100",
+    "required_columns": [
+      "defense_budget_usd",
+      "purchasing_power_parity_usd"
+    ],
+    "output_type": "percentage"
+  },
+
+  "naval_strength_index": {
+    "description": "Combined naval strength score based on fleet size and submarines",
+    "formula": "total_naval_fleet + submarines + destroyers + frigates",
+    "required_columns": [
+      "total_naval_fleet",
+      "submarines",
+      "destroyers",
+      "frigates"
+    ],
+    "output_type": "integer"
+  }
+}
