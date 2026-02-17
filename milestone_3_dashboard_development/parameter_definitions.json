@@ -1,0 +1,72 @@
+{
+  "country_selector": {
+    "type": "slicer",
+    "description": "Single-country selection for detailed analysis",
+    "selection_mode": "single",
+    "default_state": "no selection",
+    "scope": "page-level",
+    "applies_to_pages": [
+      "Nation Overview"
+    ],
+    "field_used": "country"
+  },
+
+  "multi_country_selector": {
+    "type": "slicer",
+    "description": "Allows multi-country comparison and coalition building",
+    "selection_mode": "multiple",
+    "default_state": "all countries",
+    "scope": "page-level",
+    "applies_to_pages": [
+      "Compare Powers",
+      "Coalition Builder"
+    ],
+    "field_used": "country"
+  },
+
+  "region_filter": {
+    "type": "slicer",
+    "description": "Filters countries based on region",
+    "selection_mode": "multiple",
+    "default_state": "all regions",
+    "scope": "page-level",
+    "applies_to_pages": [
+      "Quick Stats"
+    ],
+    "field_used": "region"
+  },
+
+  "continent_filter": {
+    "type": "slicer",
+    "description": "Filters countries based on continent",
+    "selection_mode": "multiple",
+    "default_state": "all continents",
+    "scope": "page-level",
+    "applies_to_pages": [
+      "Quick Stats"
+    ],
+    "field_used": "continent"
+  },
+
+  "nato_membership_filter": {
+    "type": "slicer",
+    "description": "Filters dataset by NATO membership status",
+    "selection_mode": "multiple",
+    "default_state": "both",
+    "scope": "page-level",
+    "applies_to_pages": [
+      "Quick Stats"
+    ],
+    "field_used": "is_nato"
+  },
+
+  "coalition_aggregation_logic": {
+    "type": "dynamic_measure",
+    "description": "Aggregates manpower, assets, and defense budget across selected countries",
+    "aggregation_method": "SUM",
+    "calculation_engine": "DAX measures",
+    "applies_to_pages": [
+      "Coalition Builder"
+    ]
+  }
+}
