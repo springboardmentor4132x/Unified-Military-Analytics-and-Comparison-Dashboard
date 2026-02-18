@@ -1,6 +1,5 @@
 # Unified Military Analytics and Comparison Dashboard
-
-**Author:** Karthik Baliga  
+ 
 **Data Source:** [GlobalFirepower.com](https://www.globalfirepower.com)  
 **Coverage:** 140+ countries, 50+ defense and economic indicators, 2025 data  
 **Final Dashboard:** `global_military_firepower_2025.pbix` (Power BI)
@@ -145,7 +144,7 @@ milestone_4_final_delivery/global_military_firepower_2025.pbix
 |------|-------|
 | Scraping | Python, requests, BeautifulSoup |
 | Data Processing | pandas, numpy |
-| Visualization | Power BI (primary), compatible with Tableau, Streamlit, Dash |
+| Data Visualization | Power BI |
 | Documentation | Markdown, PDF |
 | Hosting | GitHub |
 
