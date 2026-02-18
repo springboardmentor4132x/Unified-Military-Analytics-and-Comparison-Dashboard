@@ -7,7 +7,7 @@ This module scrapes country-level military metrics using predefined URLs.
 Files
 scrape_defense_data.py – Main scraping script
 military_links.txt – List of source URLs
-defense_raw_dataset.csv – Raw scraped dataset
+military_raw_dataset.csv – Raw scraped dataset
 ▶️ How to Run
 pip install -r requirements.txt
 python scripts/scrape_defense_data.py
@@ -20,9 +20,9 @@ Formatting numeric fields
 Removing inconsistencies
 Standardizing column names
 Files
-clean_defense_data.py – Data cleaning script
-defense_raw_dataset.csv – Input dataset
-defense_cleaned_dataset.csv – Cleaned dataset
+Military_raw_data.py – Data cleaning script
+Military_raw_dataset.csv – Input dataset
+Military_cleaned_dataset.csv – Cleaned dataset
 ▶️How to Run
 python scripts/clean_defense_data.py
 Output
@@ -34,9 +34,9 @@ Category-wise strength comparison
 Aggregated military metrics
 Performance benchmarking
 Files
-analyze_defense_data.py – Analysis script
-defense_cleaned_dataset.csv – Input dataset
-defense_analysis_results.csv – Analytical output
+Military_raw_data.py – Analysis script
+Military_cleaned_dataset.csv – Input dataset
+Military_processed_data.csv – Analytical output
 ▶️ How to Run
 python scripts/analyze_defense_data.py
 📤 Output
@@ -45,7 +45,7 @@ Comparative dataset with rankings and calculated insights.
 This module builds an interactive dashboard to visualize country comparisons and insights.
 Files
 dashboard_app.py – Dashboard application
-defense_cleaned_dataset.csv – Data source
+Military_processed_dataset.csv – Data source
 ▶️ How to Run
 python dashboard_app.py
  Features
