@@ -40,27 +40,49 @@ Milestone 2 focuses on converting the clean military dataset into an analytics r
 **Now the dashboard is prepared using the final files containing KPIs**
     **KPI OVERVIEW:**
        **Provides the high level summary of global military strength.**
+       
         - Country Slicer
+        
         - Total Ground Power 
+        
         - Artillary Modernization 
+        
         - Total Aircrafts
+        
         - Average Military Rank
+        
         - Ground Power Share
+        
         - Total Assets
+        
         - Total Assets Chart
+        
         - Ground Power Share (Donut Chart)
+        
     **POWER COMPARISON:**
        **Compares air and the ground strength across countries**
+       
         - Country Slicer
+        
         - Total Ground Power
+        
         - Total Aircraft
+        
         - Air to Ground Ratio (Line Chart)
+        
     **MODERNIZATION AND RANKING:**
        **Focuses on Modernization and Ranking Consistency.**
+       
         - Power index rank gap
+        
         - Artillery Modernization
+        
         - Country Slicer
+        
 **Key Insights from Milestone 2**
+
       - Normalized KPIs significantly change country ranking perspectives.
+      
       - Military structure varies strongly between nations.
+      
       - Modernization metrics provide deeper strategic insight beyond raw totals.
