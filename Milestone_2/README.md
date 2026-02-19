@@ -38,8 +38,9 @@ Milestone 2 focuses on converting the clean military dataset into an analytics r
      -Ranking in consistency using rank gap.
   
 **Now the dashboard is prepared using the final files containing KPIs**
-    **KPI OVERVIEW:**
-       **Provides the high level summary of global military strength.**
+
+    KPI OVERVIEW:
+       Provides the high level summary of global military strength.
        
         - Country Slicer
         
@@ -59,8 +60,8 @@ Milestone 2 focuses on converting the clean military dataset into an analytics r
         
         - Ground Power Share (Donut Chart)
         
-    **POWER COMPARISON:**
-       **Compares air and the ground strength across countries**
+    POWER COMPARISON:
+       Compares air and the ground strength across countries
        
         - Country Slicer
         
@@ -70,8 +71,8 @@ Milestone 2 focuses on converting the clean military dataset into an analytics r
         
         - Air to Ground Ratio (Line Chart)
         
-    **MODERNIZATION AND RANKING:**
-       **Focuses on Modernization and Ranking Consistency.**
+    MODERNIZATION AND RANKING:
+       Focuses on Modernization and Ranking Consistency.
        
         - Power index rank gap
         
