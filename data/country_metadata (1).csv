@@ -1,0 +1,146 @@
+iso_code,country,continent,region,nato_flag
+USA,United States,North America,North America,Yes
+RUS,Russia,Other,Other,No
+CHN,China,Asia,Asia,No
+IND,India,Asia,Asia,No
+KOR,South Korea,Other,Other,No
+GBR,United Kingdom,Europe,Europe,Yes
+FRA,France,Europe,Europe,Yes
+JPN,Japan,Asia,Asia,No
+UNK,Turkiye,Other,Other,No
+ITA,Italy,Europe,Europe,Yes
+BRA,Brazil,South America,South America,No
+PAK,Pakistan,Asia,Asia,No
+IDN,Indonesia,Asia,Asia,No
+DEU,Germany,Europe,Europe,Yes
+ISR,Israel,Asia,Asia,No
+IRN,Iran,Other,Other,No
+ESP,Spain,Europe,Europe,Yes
+AUS,Australia,Oceania,Oceania,No
+EGY,Egypt,Africa,Africa,No
+UKR,Ukraine,Europe,Europe,No
+POL,Poland,Europe,Europe,Yes
+TWN,Taiwan,Other,Other,No
+VNM,Vietnam,Other,Other,No
+SAU,Saudi Arabia,Asia,Asia,No
+THA,Thailand,Asia,Asia,No
+DZA,Algeria,Africa,Africa,No
+SWE,Sweden,Europe,Europe,No
+CAN,Canada,North America,North America,Yes
+SGP,Singapore,Asia,Asia,No
+GRC,Greece,Europe,Europe,Yes
+NGA,Nigeria,Africa,Africa,No
+MEX,Mexico,North America,North America,No
+ARG,Argentina,South America,South America,No
+PRK,North Korea,Other,Other,No
+BGD,Bangladesh,Asia,Asia,No
+NLD,Netherlands,Europe,Europe,Yes
+MMR,Myanmar,Asia,Asia,No
+NOR,Norway,Europe,Europe,Yes
+PRT,Portugal,Europe,Europe,Yes
+ZAF,South Africa,Africa,Africa,No
+PHL,Philippines,Asia,Asia,No
+MYS,Malaysia,Asia,Asia,No
+IRQ,Iraq,Asia,Asia,No
+CHE,Switzerland,Europe,Europe,No
+DNK,Denmark,Europe,Europe,Yes
+COL,Colombia,South America,South America,No
+CHL,Chile,South America,South America,No
+FIN,Finland,Europe,Europe,No
+PER,Peru,South America,South America,No
+VEN,Venezuela,Other,Other,No
+ROU,Romania,Europe,Europe,Yes
+ETH,Ethiopia,Africa,Africa,No
+CZE,Czechia,Europe,Europe,Yes
+ARE,United Arab Emirates,Asia,Asia,No
+HUN,Hungary,Europe,Europe,Yes
+AGO,Angola,Africa,Africa,No
+KAZ,Kazakhstan,Asia,Asia,No
+UZB,Uzbekistan,Asia,Asia,No
+MAR,Morocco,Africa,Africa,No
+AZE,Azerbaijan,Asia,Asia,No
+BEL,Belgium,Europe,Europe,Yes
+BGR,Bulgaria,Europe,Europe,Yes
+SRB,Serbia,Europe,Europe,No
+SYR,Syria,Other,Other,No
+ECU,Ecuador,South America,South America,No
+UNK,Democratic Republic of the Congo,Other,Other,No
+CUB,Cuba,North America,North America,No
+AUT,Austria,Europe,Europe,No
+LKA,Sri Lanka,Asia,Asia,No
+BLR,Belarus,Europe,Europe,No
+SVK,Slovakia,Europe,Europe,Yes
+QAT,Qatar,Asia,Asia,No
+SDN,Sudan,Africa,Africa,No
+HRV,Croatia,Europe,Europe,Yes
+JOR,Jordan,Asia,Asia,No
+LBY,Libya,Africa,Africa,No
+TKM,Turkmenistan,Asia,Asia,No
+ALB,Albania,Europe,Europe,Yes
+KWT,Kuwait,Asia,Asia,No
+BOL,Bolivia,Other,Other,No
+BHR,Bahrain,Asia,Asia,No
+OMN,Oman,Asia,Asia,No
+KEN,Kenya,Africa,Africa,No
+TCD,Chad,Africa,Africa,No
+YEM,Yemen,Asia,Asia,No
+NZL,New Zealand,Oceania,Oceania,No
+PRY,Paraguay,South America,South America,No
+LTU,Lithuania,Europe,Europe,Yes
+MOZ,Mozambique,Africa,Africa,No
+TUN,Tunisia,Africa,Africa,No
+ARM,Armenia,Asia,Asia,No
+TZA,Tanzania,Other,Other,No
+CMR,Cameroon,Africa,Africa,No
+GEO,Georgia,Asia,Asia,No
+KHM,Cambodia,Asia,Asia,No
+SVN,Slovenia,Europe,Europe,Yes
+IRL,Ireland,Europe,Europe,No
+MNG,Mongolia,Asia,Asia,No
+LVA,Latvia,Europe,Europe,Yes
+URY,Uruguay,South America,South America,No
+HND,Honduras,North America,North America,No
+UNK,Ivory Coast,Other,Other,No
+GTM,Guatemala,North America,North America,No
+MLI,Mali,Africa,Africa,No
+KGZ,Kyrgyzstan,Asia,Asia,No
+LAO,Laos,Other,Other,No
+EST,Estonia,Europe,Europe,Yes
+TJK,Tajikistan,Asia,Asia,No
+ZMB,Zambia,Africa,Africa,No
+GHA,Ghana,Africa,Africa,No
+ZWE,Zimbabwe,Africa,Africa,No
+MKD,North Macedonia,Europe,Europe,Yes
+SSD,South Sudan,Africa,Africa,No
+UGA,Uganda,Africa,Africa,No
+LBN,Lebanon,Asia,Asia,No
+NAM,Namibia,Africa,Africa,No
+LUX,Luxembourg,Europe,Europe,Yes
+AFG,Afghanistan,Asia,Asia,No
+NER,Niger,Africa,Africa,No
+ERI,Eritrea,Africa,Africa,No
+COG,Republic of the Congo,Other,Other,No
+BWA,Botswana,Africa,Africa,No
+MRT,Mauritania,Africa,Africa,No
+DOM,Dominican Republic,North America,North America,No
+SEN,Senegal,Africa,Africa,No
+NPL,Nepal,Asia,Asia,No
+MNE,Montenegro,Europe,Europe,Yes
+SLV,El Salvador,North America,North America,No
+BFA,Burkina Faso,Africa,Africa,No
+MDG,Madagascar,Africa,Africa,No
+NIC,Nicaragua,North America,North America,No
+BIH,Bosnia and Herzegovina,Europe,Europe,No
+GAB,Gabon,Africa,Africa,No
+MDA,Moldova,Other,Other,No
+ISL,Iceland,Europe,Europe,Yes
+PAN,Panama,North America,North America,No
+UNK,Beliz,Other,Other,No
+LBR,Liberia,Africa,Africa,No
+SUR,Suriname,South America,South America,No
+SLE,Sierra Leone,Africa,Africa,No
+UNK,Kosovo,Other,Other,No
+SOM,Somalia,Africa,Africa,No
+CAF,Central African Republic,Africa,Africa,No
+BEN,Benin,Africa,Africa,No
+BTN,Bhutan,Asia,Asia,No
