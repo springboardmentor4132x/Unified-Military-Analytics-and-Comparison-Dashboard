@@ -1,268 +1,121 @@
-# Unified Military Analytics and Comparison Dashboard 
+# Unified Military Analytics and Comparison Dashboard – 2025
 
-## Project Overview
-A comprehensive interactive dashboard suite for analyzing global military power in 2025, featuring data from 140+ countries with 50+ defense and economic indicators. The project provides cross-platform flexibility with deployments in Tableau, Power BI, Streamlit, and Dash.
+##  Project Overview
 
-## Key Features
-- **Quick Stats**: Global overview of rankings, trends, and highlights
-- **Nation Overview**: Detailed analysis of individual country capabilities
-- **Compare Powers**: Side-by-side military and economic comparison
-- **Coalition Builder**: Interactive simulation of alliance strength and combined assets
+This project develops a structured analytics framework for analyzing global military power in 2025. The system collects military data through web scraping, performs KPI engineering, and visualizes insights using interactive Power BI dashboards.
 
-## Project Structure - Milestone & Module Organized
+The platform enables:
 
-```
-Unified-Military-Analytics-and-Comparison-Dashboard-DV-1/
-│
-├── MILESTONE 1: DATA COLLECTION & PREPARATION (Weeks 1-2)
-│   │
-│   ├── milestone_1_data_collection/
-│   │   │
-│   │   ├── MODULE 1: Scraping Setup & Execution
-│   │   │   └── module_1_scraping/
-│   │   │       ├── scrape_military_metrics.py      # Main scraping script
-│   │   │       ├── scraper_config.json             # URLs and settings
-│   │   │       ├── html_cache/                     # Per-country HTML (debug)
-│   │   │       └── logs/
-│   │   │
-│   │   └── MODULE 2: Data Cleaning & Structuring
-│   │       └── module_2_cleaning/
-│   │           ├── clean_data.py                   # Cleaning pipeline
-│   │           ├── data_mapping.json               # Column standardization
-│   │           ├── validation_rules.json           # Data quality checks
-│   │           └── notebooks/
-│   │               └── 02_data_cleaning.ipynb      # Cleaning workflow
-│   │
-│   └── Data Storage (Module 1 & 2 outputs)
-│       ├── data/raw/
-│       │   ├── military_raw_data.csv               # Raw scraped (140+ countries)
-│       │   ├── links_for_military_data.txt         # URL list
-│       │   └── scraping_report.md                  # Scraping summary
-│       └── data/processed/
-│           ├── military_cleaned.csv                # Cleaned dataset
-│           ├── data_quality_report.md              # Cleaning summary
-│           └── quality_metrics.json                # Validation results
-│
-├── MILESTONE 2: KPI ENGINEERING & TABLEAU PREP (Weeks 3-4)
-│   │
-│   ├── milestone_2_kpi_engineering/
-│   │   │
-│   │   ├── MODULE 3: KPI Feature Engineering
-│   │   │   └── module_3_kpi_feature_engineering/
-│   │   │       ├── generate_kpis.py                # KPI calculation engine
-│   │   │       ├── kpi_definitions.json            # KPI formulas
-│   │   │       ├── metadata_enrichment.py          # Region/Alliance data
-│   │   │       └── notebooks/
-│   │   │           └── 03_kpi_engineering.ipynb    # KPI validation
-│   │   │
-│   │   └── MODULE 4: Dashboard Planning & Prototyping
-│   │       └── module_4_dashboard_planning/
-│   │           ├── wireframes/                     # Dashboard sketches
-│   │           ├── interaction_design.md           # UI/UX documentation
-│   │           ├── filter_specifications.json      # Filter definitions
-│   │           └── prototype_dashboard.twbx        # Tableau prototype
-│   │
-│   └── Data Storage (Module 3 output)
-│       └── data/kpi/
-│           ├── military_final.xlsx                 # Wide format (all KPIs)
-│           ├── military_final_long.csv             # Long format (Tableau)
-│           └── kpi_validation_report.md            # KPI accuracy check
-│
-├── MILESTONE 3: FULL DASHBOARD DEVELOPMENT (Weeks 5-6)
-│   │
-│   ├── milestone_3_dashboard_development/
-│   │   │
-│   │   ├── MODULE 5: Quick Stats & Nation Overview
-│   │   │   └── module_5_quick_stats_nation_overview/
-│   │   │       ├── quick_stats_dev.twbx            # Quick Stats workbook
-│   │   │       ├── nation_overview_dev.twbx        # Nation Overview workbook
-│   │   │       ├── quick_stats_spec.md             # Feature specifications
-│   │   │       └── nation_overview_spec.md         # Feature specifications
-│   │   │
-│   │   ├── MODULE 6: Compare Powers & Coalition Builder
-│   │   │   └── module_6_compare_coalition/
-│   │   │       ├── compare_powers_dev.twbx         # Compare Powers workbook
-│   │   │       ├── coalition_builder_dev.twbx      # Coalition Builder workbook
-│   │   │       ├── compare_spec.md                 # Feature specifications
-│   │   │       └── coalition_spec.md               # Feature specifications
-│   │   │
-│   │   └── Integration/
-│   │       ├── global_military_firepower_2025.twbx # FINAL INTEGRATED WORKBOOK
-│   │       ├── integration_notes.md                # Integration details
-│   │       └── parameter_definitions.json          # Tableau parameters
-│   │
-│   └── Dashboard Variants (Alternative platforms)
-│       ├── dashboards/power_bi/
-│       │   ├── Global_Military_Powers_Stats.pbix   # Power BI version
-│       │   └── powerbi_config.json
-│       ├── dashboards/streamlit/
-│       │   ├── app.py
-│       │   ├── pages/
-│       │   │   ├── 01_quick_stats.py
-│       │   │   ├── 02_nation_overview.py
-│       │   │   ├── 03_compare_powers.py
-│       │   │   └── 04_coalition_builder.py
-│       │   └── requirements.txt
-│       └── dashboards/dash/
-│           ├── app.py
-│           ├── callbacks.py
-│           ├── layouts.py
-│           └── requirements.txt
-│
-├── MILESTONE 4: FINAL REVIEW & DELIVERY (Weeks 7-8)
-│   │
-│   ├── milestone_4_final_delivery/
-│   │   │
-│   │   ├── MODULE 7: Testing & Debugging
-│   │   │   └── module_7_testing/
-│   │   │       ├── qa_checklist.md                 # QA testing document
-│   │   │       ├── test_results.md                 # Test execution results
-│   │   │       ├── known_issues.md                 # Bug tracking
-│   │   │       └── tests/
-│   │   │           ├── test_scraping.py
-│   │   │           ├── test_data_quality.py
-│   │   │           └── test_kpi_calculations.py
-│   │   │
-│   │   └── MODULE 8: Documentation & GitHub Release
-│   │       └── module_8_documentation/
-│   │           ├── FINAL_README.md                 # Comprehensive README
-│   │           ├── SCRAPING_GUIDE.md               # How to scrape
-│   │           ├── DASHBOARD_USER_GUIDE.md         # Dashboard usage
-│   │           ├── KPI_DEFINITIONS.md              # KPI explanations
-│   │           ├── DATA_DICTIONARY.md              # Data field reference
-│   │           ├── ARCHITECTURE.md                 # System design
-│   │           └── INSTALLATION_GUIDE.md           # Setup instructions
-│   │
-│   └── Release Artifacts/
-│       ├── CHANGELOG.md
-│       ├── requirements.txt                        # Python dependencies
-│       └── .gitignore
-│
-├── Supporting Directories
-│   ├── configs/                                    # Configuration files (all)
-│   ├── scripts/                                    # Utility scripts
-│   └── tests/                                      # Test suite
-│
-└── Documentation (Cross-Milestone)
-    ├── docs/
-    │   ├── PROJECT_STATEMENT.md                   # Project overview
-    │   ├── MILESTONES.md                          # Timeline & deliverables
-    │   └── PROGRESS_TRACKER.md                    # Status updates
-    └── README.md                                  # This file
-
-```
-
-## Milestones & Timeline
-
-### Milestone 1: Data Collection and Preparation (Weeks 1–2)
-- **Module 1**: Scraping Setup and Execution
-  - Output: `scrape_military_metrics.py`, `data/raw/military_raw_data.csv`
-- **Module 2**: Data Cleaning and Structuring
-  - Output: `data/processed/military_cleaned.csv`, `notebooks/02_data_cleaning.ipynb`
-
-### Milestone 2: KPI Engineering and Tableau Prep (Weeks 3–4)
-- **Module 3**: KPI Feature Engineering
-  - Output: `data/kpi/military_final.xlsx`, `scripts/generate_kpis.py`
-- **Module 4**: Dashboard Planning and Prototyping
-  - Output: Dashboard storyboard, prototype application
-
-### Milestone 3: Full Dashboard Development (Weeks 5–6)
-- **Module 5**: Build Quick Stats and Nation Overview
-  - Output: Quick Stats and Nation Overview dashboards
-- **Module 6**: Build Compare Powers and Coalition Builder
-  - Output: All 4 dashboards fully integrated
-
-### Milestone 4: Final Review and Delivery (Weeks 7–8)
-- **Module 7**: Testing and Debugging
-  - Output: QA checklist, debugged workbook
-- **Module 8**: Documentation and GitHub Release
-  - Output: GitHub repository, final documentation
-
-## Key Files Location
-
-| File | Location | Purpose |
-|------|----------|---------|
-| Raw Data | `data/raw/military_raw_data.csv` | Original scraped data from GlobalFirepower.com |
-| Cleaned Data | `data/processed/military_cleaned.csv` | Data after cleaning and standardization |
-| Final KPI Dataset | `data/kpi/military_final.xlsx` | Complete dataset with all KPIs |
-| Tableau Dashboard | `dashboards/tableau/global_military_firepower_2025.twbx` | Primary Tableau workbook |
-| Power BI Dashboard | `dashboards/power_bi/Global_Military_Powers_Stats.pbix` | Power BI alternative |
-| Configuration Files | `configs/` | All system configurations |
-
-## KPI Definitions
-
-The following KPIs are calculated in `generate_kpis.py`:
-
-1. **Power Index Rank Gap**: Ranking difference between consecutive countries
-2. **Assets per Capita**: Military assets divided by population
-3. **Budget-to-GDP Ratio**: Defense budget as percentage of GDP
-4. **Personnel per 1000**: Active military personnel per 1000 population
-5. **Equipment Density**: Total equipment count per land area
-
-## Getting Started
-
-### Prerequisites
-- Python 3.8+
-- Tableau Public/Desktop (for Tableau dashboards)
-- Power BI Desktop (for Power BI dashboards)
-- Required packages: see `requirements.txt`
-
-### Setup Instructions
-1. Clone this repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Place `links_for_military_data.txt` in `data/raw/`
-4. Run scraping: `python scripts/scrape_military_metrics.py`
-5. Run cleaning: `python scripts/clean_data.py`
-6. Generate KPIs: `python scripts/generate_kpis.py`
-7. Open dashboards in Tableau or Power BI
-
-## Data Sources
-- **Primary**: GlobalFirepower.com (scraped)
-- **File**: `data/raw/links_for_military_data.txt` (140+ country URLs)
-
-## Dashboard Modules
-
-### Quick Stats
-- Top 10 countries by Power Index
-- Regional distribution
-- Alliance breakdowns
-- Trend indicators
-
-### Nation Overview
-- Country profile with all metrics
-- Bar and radar charts
-- Rank comparisons
-- Historical trends
-
-### Compare Powers
+- Global military ranking analysis
+- Country-level capability assessment
 - Side-by-side country comparison
-- Key metrics highlighted
-- Percentage difference calculations
-- Custom metric selection
+- Coalition strength simulation
+- KPI-driven analytical insights
+- Interactive filtering and dynamic exploration
 
-### Coalition Builder
-- Multi-country selection
-- Aggregated coalition metrics
-- Strength comparisons
-- What-if scenarios
 
-## Contributors
-- Project Lead: [Your Name]
-- Data Engineering: [Team]
-- Dashboard Development: [Team]
+##  Data Collection (Web Scraping)
 
-## License
-[Specify License - MIT, GPL, etc.]
+Military data was collected from:
 
-## Support & Documentation
-- For issues: Check `docs/` folder
-- For questions: See `DASHBOARD_GUIDE.md`
-- For data: See `DATA_DICTIONARY.md`
+- GlobalFirepower.com
 
-## Last Updated
-February 2026
+### Scraping Methodology
+
+- Python was used for web scraping.
+- `requests` library was used to fetch HTML pages.
+- `BeautifulSoup` was used to parse military metric blocks.
+- Extracted metrics included manpower, aircraft, tanks, naval assets, defense budget, and GDP.
+- Data was structured and exported into Excel format for further processing.
+
+This ensured automated and scalable data acquisition.
+
+
+## 🛠 Tech Stack
+
+### Data Collection
+- Python
+- requests
+- BeautifulSoup
+
+### Data Processing
+- pandas
+- Microsoft Excel
+
+### KPI Engineering
+- Derived metric calculations in Excel
+
+### Visualization
+- Microsoft Power BI Desktop (.pbix)
+
+### Documentation & Version Control
+- GitHub
+
+
+##  Key Performance Indicators (KPIs)
+
+The following KPIs were engineered:
+
+### 1. Power Index Rank Gap
+Difference between ranking positions for comparative analysis.
+
+### 2. Assets per Capita
+Total military assets divided by population to normalize strength.
+
+### 3. Defense Budget-to-GDP Ratio
+Percentage of GDP allocated to defense spending.
+
+### 4. Coalition Aggregated Strength
+Sum of manpower, air power, naval strength, and land systems for selected countries.
+
+All KPIs were validated before dashboard integration.
 
 ---
 
-**Status**: Project Structure Initialized | Next: Data Collection Phase
+##  Project Milestones
 
+### Milestone 1 – Data Collection & Preparation
+- Implemented Python-based web scraping
+- Extracted and structured 140+ country metrics
+- Cleaned and standardized dataset
+
+### Milestone 2 – KPI Engineering
+- Computed analytical KPIs
+- Prepared final dataset for visualization
+
+### Milestone 3 – Dashboard Development
+Developed interactive dashboards:
+- Quick Stats
+- Nation Overview
+- Compare Powers
+- Coalition Builder
+
+Implemented dynamic slicers and comparative visuals.
+
+### Milestone 4 – Testing & Documentation
+- Validated KPI calculations
+- Tested dashboard interactions
+- Fixed formatting and aggregation issues
+- Structured GitHub repository for final release
+---
+##  How to Use
+1. Navigate to:
+   Unified-Military-Analytics-Dashboard\MILESTONE_3_Dashboard_Development
+
+2. Open using Microsoft Power BI Desktop.
+
+3. Use slicers to explore country comparisons and coalition simulations.
+##  Final Status
+
+✔ Web scraping implemented  
+✔ Dataset structured and validated  
+✔ KPIs engineered and verified  
+✔ Dashboards fully functional  
+✔ Documentation completed  
+✔ Ready for academic evaluation and portfolio presentation  
+
+---
+
+##  Author
+
+Developed as part of the Unified Military Analytics and Comparison Dashboard initiative (2025).
