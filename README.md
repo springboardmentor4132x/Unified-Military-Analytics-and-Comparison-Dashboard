@@ -12,33 +12,95 @@ from GlobalFirepower using a predefined list of URLs.
 - military_raw_data.csv – raw scraped dataset
 
 ### Folder Structure
+
 ```
 Unified-Military-Analytics-and-Comparison-Dashboard-DV/
 │
 │
-├── Milestone_1/
-│   └── Module_1/
+├───milestone_1
+│   ├───Module_1
+│   │   ├───data
+│   │   │       aircraft-total-fighters_scrape_military_metrics.csv
+│   │   │       links_for_military_data.txt
+│   │   │       military_raw_data.csv
+│   │   │       power_index_raw.csv
+│   │   │
+│   │   ├───documentation
+│   │   │       Module 1.pdf
+│   │   │
+│   │   ├───notebooks
+│   │   │       scrape_military_metrics.ipynb
+│   │   │
+│   │   └───scripts
+│   │           scrape_military_metrics.py
+│   │
+│   └───Module_2
+│       ├───data
+│       │       aircraft-total-fighters_scrape_military_metrics.csv
+│       │       military_cleaned.csv
+│       │       military_raw_data.csv
+│       │       power_index_raw.csv
 │       │
-|       ├── data/
-│       │   └── military_raw_data.csv
-│       |   └── links_for_military_data.txt
+│       ├───documentation
+│       │       Module 2.pdf
 │       │
-│       ├── documentation
-│       │   └── Module 1.pdf
+│       ├───notebooks
+│       │       clean_data.ipynb
 │       │
-│       ├── notebooks/
-│       │   └── scrape_military_metrics.ipynb
+│       └───scripts
+│               clean_data.py
+│
+├───milestone_2
+│   ├───Module_3
+│   │   ├───data
+│   │   │       military_final.xlsx
+│   │   │
+│   │   ├───documentation
+│   │   │       Module 3.pdf
+│   │   │
+│   │   ├───notebooks
+│   │   │       generate_kpis.ipynb
+│   │   │
+│   │   └───scripts
+│   │           generate_kpis.py
+│   │
+│   └───Module_4
+│       │   Dashboard application prototype.pdf
+│       │   dashboard layouts.pdf
 │       │
-│       └── scripts/
-│           └── scrape_military_metrics.py   
-│      
-│   
-├── Milestone_2/
-├── Milestone_3/
-├── Milestone_4/
-├──.gitignore
-├── README.md
-└── requirements.txt
+│       ├───dashboards
+│       │       Unified Military Analytics and Comparison Dashboard-DV.pbix
+│       │
+│       └───documentation
+│               Module 4.pdf
+│
+├───milestone_3
+│   │   Unified Military Analytics and Comparison Dashboard-DV.pdf
+│   │
+│   ├───Module_5
+│   │   ├───dashboards
+│   │   │       Unified Military Analytics and Comparison Dashboard-DV.pbix
+│   │   │
+│   │   └───documentation
+│   │           Module 5.pdf
+│   │
+│   └───Module_6
+│       ├───dashboards
+│       │       global_military_firepower_2025.pbix
+│       │
+│       └───documentation
+│               Module 6.pdf
+│
+└───milestone_4
+    ├───Module_7
+    │   │   QA Checklist.pdf
+    │   │
+    │   └───documentation
+    │           Module 7.pdf
+    │
+    └───Module_8
+        └───documentation
+                Final Documentation.pdf
 ```
 
 
