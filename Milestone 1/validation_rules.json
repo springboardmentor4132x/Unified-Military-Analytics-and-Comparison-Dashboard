@@ -1,0 +1,5 @@
+{
+ "missing_threshold":"2%",
+ "numeric_columns_required":true,
+ "country_count_min":140
+}
