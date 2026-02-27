@@ -1,0 +1,5 @@
+{
+ "assets_per_capita":"total_assets / population",
+ "budget_per_personnel":"defense_budget_usd / active_personnel",
+ "budget_to_gdp_ratio":"defense_budget_usd / purchasing_power_parity"
+}
