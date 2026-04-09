@@ -48,10 +48,10 @@ Power BI Dashboard
 
 ## 📂 Project Structure
 
-MILESTONE 1 → Data Collection & Preparation
-MILESTONE 2 → KPI Engineering & Dashboard Planning
-MILESTONE 3 → Dashboard Development
-MILESTONE 4 → Testing & Deployment
+- MILESTONE 1 → Data Collection & Preparation
+- MILESTONE 2 → KPI Engineering & Dashboard Planning
+- MILESTONE 3 → Dashboard Development
+- MILESTONE 4 → Testing & Deployment
 
 Each milestone contains scripts, datasets, and documentation for reproducibility.
 
